@@ -1,0 +1,23 @@
+Enter system
+Start test
+Start Test 1
+Current url https://elmart-shop.ru/
+Нажать на элемент
+Ввести значение
+Ввести значение
+Нажать на элемент
+Проверка по слову успешна
+Current url https://elmart-shop.ru/
+Наводимся на элемент
+Нажать на элемент
+Скроллинл страницы
+Передвигаем ползунок
+Очистить поле максимального значения
+Ввести значение
+Нажать на элемент
+Скроллинл страницы
+Наводимся на элемент
+Нажать на элемент
+Current url https://elmart-shop.ru/catalog/category/kofevarki?price-min=30548&price-max=105000
+Нажать на элемент
+Finish test

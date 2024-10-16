@@ -1,0 +1,13 @@
+Start test
+Start Test sel
+Current url https://elmart-shop.ru/
+Нажать на элемент
+Ввести значение
+Ввести значение
+Нажать на элемент
+Проверка по слову успешна
+Нажать на элемент
+Проверка по слову успешна
+Finish Test sel
+Finish test
+Exit system
