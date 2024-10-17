@@ -15,6 +15,7 @@ from selenium.webdriver.chrome.options import Options
 @allure.description("Test Buy Product 1")
 def test_buy_product_1(set_up, set_group):
     options = Options()
+    options.add_argument("--headless=new")
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
 
@@ -40,6 +41,7 @@ def test_buy_product_1(set_up, set_group):
 def test_buy_product_2(set_up, set_group):
     options = Options()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
 
     print("Start Test 2")
@@ -63,6 +65,7 @@ def test_buy_product_2(set_up, set_group):
 @allure.description("Test sel")
 def test_sel(set_up, set_group):
     options = Options()
+    options.add_argument("--headless=new")
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
 
