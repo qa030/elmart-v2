@@ -66,7 +66,7 @@ class Base():
 
     """Method клик"""
     def click_element(self, locator):
-        elem = WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, locator)))
+        elem = WebDriverWait(self.driver, 50).until(EC.element_to_be_clickable((By.XPATH, locator)))
         print("Нажать на элемент")
         return elem.click()
 
